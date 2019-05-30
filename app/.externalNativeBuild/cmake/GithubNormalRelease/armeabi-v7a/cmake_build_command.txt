@@ -1,0 +1,15 @@
+Executable : D:\android-sdk-windows\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\JZChen\1_Projects\7_CloudVR\alvr-client-v1\app
+-BE:\JZChen\1_Projects\7_CloudVR\alvr-client-v1\app\.externalNativeBuild\cmake\GithubNormalRelease\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\JZChen\1_Projects\7_CloudVR\alvr-client-v1\app\build\intermediates\cmake\GithubNormal\release\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\android-sdk-windows\ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\android-sdk-windows\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\android-sdk-windows\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\JZChen\\1_Projects\\7_CloudVR\\alvr-client-v1\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\JZChen\\1_Projects\\7_CloudVR\\alvr-client-v1\\app\\.externalNativeBuild\\cmake\\GithubARCoreDebug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\JZChen\\1_Projects\\7_CloudVR\\alvr-client-v1\\app\\.externalNativeBuild\\cmake\\GithubARCoreDebug\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "E:\\JZChen\\1_Projects\\7_CloudVR\\alvr-client-v1\\app\\build\\intermediates\\cmake\\GithubARCore\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}

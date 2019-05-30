@@ -1,0 +1,87 @@
+
+{
+	"buildFiles" : [ "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\JZChen\\1_Projects\\7_CloudVR\\alvr-client-v1\\app\\.externalNativeBuild\\cmake\\GithubARCoreRelease\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\JZChen\\1_Projects\\7_CloudVR\\alvr-client-v1\\app\\.externalNativeBuild\\cmake\\GithubARCoreRelease\\arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/udp.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/nal.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/vr_context.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/render.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/latency_collector.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/fec.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/asset.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\android-sdk-windows\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++14 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/src/main/cpp/gltf_model.cpp",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android-sdk-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-sdk-windows/ndk-bundle/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\include -I..\\..\\..\\..\\..\\ALVR-common  -isystem D:/android-sdk-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/ALVR-common/reedsolomon/rs.c",
+					"workingDirectory" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/.externalNativeBuild/cmake/GithubARCoreRelease/arm64-v8a"
+				}
+			],
+			"output" : "E:/JZChen/1_Projects/7_CloudVR/alvr-client-v1/app/build/intermediates/cmake/GithubARCore/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "1131277293"
+		}
+	},
+	"toolchains" : 
+	{
+		"1131277293" : 
+		{
+			"cCompilerExecutable" : "D:/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

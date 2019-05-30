@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.polygraphene.alvr"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 24
+        versionName "2.3.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ndk {
+                abiFilters "arm64-v8a", "armeabi-v7a"
+            }
+        }
+        debug {
+            ndk {
+                abiFilters "arm64-v8a", "armeabi-v7a"
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ["src/main/jniLibs"]
+        }
+    }
+    // Remove osig file from release apk
+    applicationVariants.all { variant ->
+        if (variant.buildType.name == 'release') {
+            variant.mergeAssets.doLast {
+                delete(fileTree(dir: variant.mergeAssets.outputDir, includes: ['oculussig_*']))
+            }
+        }
+    }
+    flavorDimensions "distribute", "ar"
+    productFlavors {
+        Github {
+            applicationId 'com.polygraphene.alvr'
+            dimension "distribute"
+            manifestPlaceholders = [filter:"android.intent.category.LAUNCHER"]
+        }
+        OculusStore {
+            applicationId 'com.polygraphene.alvr.oculus'
+            dimension "distribute"
+            manifestPlaceholders = [filter:"android.intent.category.INFO"]
+        }
+        Normal {
+            dimension "ar"
+        }
+        ARCore {
+            dimension "ar"
+            applicationIdSuffix '.ar'
+            minSdkVersion 24
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.so'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    ARCoreImplementation('com.google.ar:core:1.2.1')
+}
